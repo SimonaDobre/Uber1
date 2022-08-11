@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "425724675684",
+    "project_id": "uber1-ff462",
+    "storage_bucket": "uber1-ff462.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425724675684:android:61c3f43299212925484171",
+        "android_client_info": {
+          "package_name": "com.simona.uber1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425724675684-nn493qfiu31c13dlvl34cft4p86l7d2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQQcLxygmQpyAN9Ia6ycHBBau_nab1UIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425724675684-nn493qfiu31c13dlvl34cft4p86l7d2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
