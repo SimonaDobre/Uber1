@@ -11,8 +11,7 @@
     Package name:
     com.simona.uber1
 
-    SHA-1 certificate fingerprint:
-    7C:6C:BB:93:CE:B4:54:31:24:6E:B0:07:62:51:AF:11:AA:FF:5E:F3
+
 
     Alternatively, follow the directions here:
     https://developers.google.com/maps/documentation/android/start#get-key
@@ -21,6 +20,6 @@
     string in this file.
     -->
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        AIzaSyANZ1YrpyJYNgSltJDSpEXZEylqf3bqZl0
+        BuildConfig.API_MAPS
     </string>
 </resources>
