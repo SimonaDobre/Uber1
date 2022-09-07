@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomerLoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/firstNameCustomerED"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:ems="10"
+                android:hint="firstName"
+                android:inputType="textPersonName"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/lastNameCustomerED"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:ems="10"
+                android:hint="lastName"
+                android:inputType="textPersonName"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/phoneCustomerED"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:ems="10"
+                android:hint="phone"
+                android:inputType="textPersonName"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/emailCustomerED"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:ems="10"
+                android:hint="email"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/passwordCustomerED"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/loginCustomerBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="login"
+                    app:backgroundTint="#FF9800" />
+
+                <Button
+                    android:id="@+id/signUpCustomerBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="register"
+                    app:backgroundTint="#8BC34A" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
